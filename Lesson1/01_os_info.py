@@ -4,8 +4,8 @@ import sys
 
 # Этой программой собираю информацию об операционной системе и версии питона.
 
-# TODO запустить этот скрипт и закомитить результат его работы (файл os_info.txt)
-
+import platform
+import sys
 
 info = 'OS info is \n {}\n\nPython version is {} {}'.format(
     platform.uname(), sys.version, platform.architecture())
