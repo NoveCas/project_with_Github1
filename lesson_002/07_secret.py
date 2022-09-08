@@ -21,4 +21,12 @@ secret_message = [
 # Требуется задать конкретные индексы, например secret_message[3][12:23:4]
 # Если нужны вычисления и разные пробы - делайте это в консоли пайтона, тут нужен только результат
 
-# TODO вывести расшифрованное сообщение
+# TODO Доделать код
+word_1 = secret_message[0][3]
+word_2 = secret_message[1][9:13]
+word_3 = secret_message[2][5:15:2]
+word_4 = secret_message[3][]
+
+
+
+print(word_1,word_2, word_3, word_4)
