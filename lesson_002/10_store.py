@@ -43,6 +43,9 @@ lamps_price = lamps_item['price']
 lamps_cost = lamps_quantity * lamps_price
 print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, 'руб')
 
+table_cost_1 = store[goods['Стол']][0]['quantity'] * store[goods['Стол']][0]['price']
+table_cost_2 = store[goods['Стол']][0]['quantity'] * store[goods['Стол']][0]['price']
+print(table_cost)
 # Вывести стоимость каждого товара на складе: один раз распечать сколько всего столов, стульев и т.д. на складе
 # Формат строки <товар> - <кол-во> шт, стоимость <общая стоимость> руб
 
