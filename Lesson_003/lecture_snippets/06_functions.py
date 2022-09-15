@@ -106,13 +106,13 @@ def elephant_to_free(some_list):
 
 zoo = ['lion', 'elephant', 'monkey', 'skunk', 'horse', 'elephant']
 
-elephant_to_free(zoo)
+elephant_to_free(some_list=zoo)
 print(zoo)
 
-elephant_to_free(zoo)
+elephant_to_free(some_list=zoo)
 print(zoo)
 
-elephant_to_free(zoo)
+elephant_to_free(some_list=zoo)
 print(zoo)
 
 # это т.н. функции с побочными эффектами, они меняют контекст выполнения.
