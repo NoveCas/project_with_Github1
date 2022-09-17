@@ -1,6 +1,8 @@
 import random
 
+a = random.randint(1, 256)
+b = random.randint(1, 256)
+c = random.randint(1, 256)
 
-for point in range(0, 1000, 1):
-    a = random.randrange(point)
-    print(a)
+random_color = [a, b, c]
+print(random_color)
