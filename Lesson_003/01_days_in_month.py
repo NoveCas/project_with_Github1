@@ -7,8 +7,40 @@
 # Если номер месяца некорректен - сообщить об этом
 
 # Номер месяца получать от пользователя следующим образом
-user_input = input("Введите, пожалуйста, номер месяца: ")
-month = int(user_input)
-print('Вы ввели', month)
+user_input = int(input("Введите, пожалуйста, номер месяца: "))
 
-# TODO здесь ваш код
+
+
+month = [
+    ['January', 1, 31], ['February', 2, 28], ['March', 3, 31],
+    ['April', 4, 30], ['May', 5, 31], ['June', 6, 30],
+    ['Jule', 7, 31], ['August', 8, 31],['September', 9, 30],
+    ['October', 10, 31], ['November', 11, 30], ['December', 12, 31]
+]
+
+if user_input == month[0][1]:
+    print('This month has', month[0][2], 'days.')
+elif user_input == month[1][1]:
+    print('This month has', month[1][2], 'days.')
+elif user_input == month[2][1]:
+    print('This month has', month[2][2], 'days.')
+elif user_input == month[3][1]:
+    print('This month has', month[3][2], 'days.')
+elif user_input == month[4][1]:
+    print('This month has', month[4][2], 'days.')
+elif user_input == month[5][1]:
+    print('This month has', month[5][2], 'days.')
+elif user_input == month[6][1]:
+    print('This month has', month[6][2], 'days.')
+elif user_input == month[7][1]:
+    print('This month has', month[7][2], 'days.')
+elif user_input == month[8][1]:
+    print('This month has', month[8][2], 'days.')
+elif user_input == month[9][1]:
+    print('This month has', month[9][2], 'days.')
+elif user_input == month[10][1]:
+    print('This month has', month[10][2], 'days.')
+elif user_input == month[11][1]:
+    print('This month has', month[11][2], 'days.')
+else:
+    print('This month dosnt exist')
