@@ -44,3 +44,38 @@ elif user_input == month[11][1]:
     print('This month has', month[11][2], 'days.')
 else:
     print('This month dosnt exist')
+
+
+#THERE I TRIED TO REALIZE CYCLE FOR...
+# for month_fact in month:
+#     for days in month_fact:
+#         if isinstance(days,str):
+#             continue
+#         elif user_input == days:
+#             print(month[0][2])
+#         elif days == 2:
+#             print(month[1][2])
+#         elif days == 3:
+#             print(month[2][2])
+#         elif days == 4:
+#             print(month[3][2])
+#         elif days == 5:
+#             print(month[4][2])
+#         elif days == 6:
+#             print(month[5][2])
+#         elif days == 7:
+#             print(month[6][2])
+#         elif days == 8:
+#             print(month[7][2])
+#         elif days == 9:
+#             print(month[8][2])
+#         elif days == 10:
+#             print(month[9][2])
+#         elif days == 11:
+#             print(month[10][2])
+#         elif days == 12:
+#             print(month[11][2])
+#         else:
+#             print('Вы ввели неккоректынй номер')
+#
+

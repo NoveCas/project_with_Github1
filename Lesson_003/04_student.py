@@ -11,4 +11,16 @@
 
 educational_grant, expenses = 10000, 12000
 
-# TODO здесь ваш код
+month = 10
+month_cicle = 0
+money_parents = 0
+educational_grant_cicle = 0
+expenses_cicle = 0
+while month_cicle < month:
+    month_cicle += 1
+    money_parents += expenses - educational_grant
+    educational_grant_cicle += educational_grant
+    expenses_cicle = expenses * 3 / 100
+    expenses += expenses_cicle
+money_parents = round(money_parents,2)
+print('Cтуденту надо попросить {} рублей'.format(money_parents))
