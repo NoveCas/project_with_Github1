@@ -10,7 +10,7 @@
 
 a, b = 179, 37
 
-# TODO здесь ваш код
+
 int_divisor = 0
 multiplication = 0
 while multiplication <= a:
