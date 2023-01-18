@@ -25,10 +25,14 @@ def smile_draw(x, y):
     p3 = sd.get_point(x + 5, y - 25)
     p4 = sd.get_point(x + 30, y - 10)
     point_list = [p1, p2, p3, p4]
-    sd.lines(point_list, color=color, width=1)
+    sd.lines(point_list, color, width=1)
+
+for _ in range(10):
+    x1 = sd.random_point()
+    y1 = sd.random_point()
+    smile_draw(x1, y1)
 
 
-smile_draw(100, 100)
 
 
 
